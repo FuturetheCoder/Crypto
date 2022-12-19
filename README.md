@@ -1,16 +1,16 @@
-# cryptotest
+# CryptoTest
 
-A new Flutter project.
+Glade Assessment Test. 
 
-## Getting Started
+This little project aims at showing updated price action for some cryptocurrency in the market and also a feature for converting any value of any crptocurrency to the current naira market value.
 
-This project is a starting point for a Flutter application.
+ public APIs uesed in this project:
 
-A few resources to get you started if this is your first Flutter project:
+- [ApiLayer Currency Data Api](https://apilayer.com/marketplace/currency_data-api?utm_source=apilayermarketplace&utm_medium=featured): for exchange rate between Dollar and Naira
+- [Coinmarketcap](https://coinmarketcap.com/api/documentation/v1/#operation/getV2CryptocurrencyQuotesLatest): for the current prices of the cryptocurrencies
+  
+Packages Used in this project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Dio](https://pub.dev/packages/dio): for  http calls 
+- [Riverpod](https://riverpod.dev/) : for app's state management
+- [Http Mock Adapter](https://pub.dev/packages/http_mock_adapter): mocking package for Dio for testing. and to mock request-response communication.
